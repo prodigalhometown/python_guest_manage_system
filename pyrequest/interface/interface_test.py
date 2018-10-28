@@ -33,9 +33,9 @@ class GetEventListTest(unittest.TestCase):
 		result = r.json()
 		self.assertEqual(result['status'], 200)
 		self.assertEqual(result['message'], 'success')
-		self.assertEqual(result['data']['name'], '小米5发布会')
-		self.assertEqual(result['data']['address'], '北京国家会议中心')
-		self.assertEqual(result['data']['start_time'], "2019-09-30T13:05:08")
+		self.assertEqual(result['data']['name'], '红米Pro发布会')
+		self.assertEqual(result['data']['address'], '北京会展中心')
+		self.assertEqual(result['data']['start_time'], "2018-10-29T14:00:00")
 		
 if __name__ == '__main__':
 	unittest.main()

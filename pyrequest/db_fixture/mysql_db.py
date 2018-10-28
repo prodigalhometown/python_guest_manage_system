@@ -31,6 +31,7 @@ class DB:
 		try:
 			# 连接数据库
 			self.conn = connect(host=host,
+								port=int(port),
 								user=user,
 								password=password,
 								db=db,
